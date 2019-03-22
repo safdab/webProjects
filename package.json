@@ -1,0 +1,23 @@
+{
+  "name": "tp1",
+  "version": "1.0.0",
+  "description": "Tp1 du cours JXT. Esir2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/safdab/webProjects.git"
+  },
+  "author": "Barry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/safdab/webProjects/issues"
+  },
+  "homepage": "https://github.com/safdab/webProjects#readme",
+  "devDependencies": {
+    "eslint": "^5.15.3",
+    "nodemon": "^1.18.10"
+  }
+}
