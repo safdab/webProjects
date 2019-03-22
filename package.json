@@ -4,7 +4,8 @@
   "description": "Tp1 du cours JXT. Esir2",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -20,4 +21,7 @@
     "eslint": "^5.15.3",
     "nodemon": "^1.18.10"
   }
+  
+    
+  
 }
