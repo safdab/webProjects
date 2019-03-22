@@ -10,6 +10,8 @@ const server = http.createServer((req, res) => {
     // Attente de deux secondes avant de repondre
     setTimeout(() => {
         res.writeHead(200, {"Content-Type": "application/json"})
+        const waitTill = new Date(new Date().getTime() + 2 * 1000);
+        while (waitTill > new Date()) {}
         res.end(JSON.stringify({message: 'Hello World !', nbRequest}))
     }, 2000);
 })
